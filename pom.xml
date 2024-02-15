@@ -12,7 +12,12 @@
 	<properties>
 		<master.version>2.15.10</master.version>
 	</properties>
-
+        <repositories>
+        <repository>
+            <id>nms-repo</id>
+            <url>https://repo.codemc.io/repository/nms/</url>
+        </repository>
+        </repositories>
 	<modules>
 		<module>cartographer2_main</module>
 		<module>cartographer2_v1_8_r3</module>
